@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gym AI App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🏋️ AI Gym Coach</h1>
+    <p>Your Personal Fitness Companion</p>
+  </header>
+
+  <section class="dashboard">
+    <div class="container">
+    <h2>Weekly Plan Overview</h2>
+    <table>
+      <tr>
+        <th>Day</th>
+        <th>Workout Focus</th>
+      </tr>
+      <tr><td>Day 1</td><td>Chest + Triceps</td></tr>
+      <tr><td>Day 2</td><td>Back + Biceps</td></tr>
+      <tr><td>Day 3</td><td>Legs (Quads, Hamstrings, Calves)</td></tr>
+      <tr><td>Day 4</td><td>Shoulders + Abs</td></tr>
+      <tr><td>Day 5</td><td>Upper Body Strength (Push/Pull)</td></tr>
+      <tr><td>Day 6</td><td>Full Body HIIT or Functional</td></tr>
+      <tr><td>Day 7</td><td>Rest / Recovery</td></tr>
+    </table>
+
+    <h2>Day 1: Chest + Triceps</h2>
+    <ul>
+      <li>Bench Press – 4 sets x 8–10 reps</li>
+      <li>Incline Dumbbell Press – 3 x 10</li>
+      <li>Chest Fly – 3 x 12</li>
+      <li>Triceps Pushdowns – 3 x 12</li>
+      <li>Skull Crushers – 3 x 10</li>
+      <li>Triceps Dips – 3 x 12</li>
+      <li>Optional: Pushups – 2 sets to failure</li>
+    </ul>
+
+    <h2>Day 2: Back + Biceps</h2>
+    <ul>
+      <li>Pull-Ups – 3 x 8</li>
+      <li>Lat Pulldowns – 3 x 10</li>
+      <li>Bent Over Barbell Rows – 3 x 8</li>
+      <li>Seated Cable Row – 3 x 12</li>
+      <li>Barbell Curls – 3 x 10</li>
+      <li>Hammer Curls – 3 x 12</li>
+      <li>Preacher Curl – 3 x 12</li>
+    </ul>
+
+    <h2>Day 3: Legs</h2>
+    <ul>
+      <li>Squats – 4 x 8</li>
+      <li>Leg Press – 3 x 12</li>
+      <li>Walking Lunges – 3 x 10 (each leg)</li>
+      <li>Romanian Deadlifts – 3 x 10</li>
+      <li>Leg Curl Machine – 3 x 12</li>
+      <li>Standing Calf Raises – 3 x 15</li>
+      <li>Seated Calf Raises – 3 x 15</li>
+    </ul>
+
+    <h2>Day 4: Shoulders + Abs</h2>
+    <ul>
+      <li>Overhead Barbell Press – 4 x 8</li>
+      <li>Dumbbell Lateral Raises – 3 x 12</li>
+      <li>Front Raises – 3 x 12</li>
+      <li>Rear Delt Fly – 3 x 12</li>
+      <li>Shrugs – 3 x 15</li>
+      <li>Plank – 3 x 30–60 sec</li>
+      <li>Leg Raises – 3 x 15</li>
+      <li>Cable Crunch – 3 x 15</li>
+    </ul>
+
+    <h2>Day 5: Upper Body Strength (Push/Pull)</h2>
+    <ul>
+      <li>Deadlifts – 4 x 6</li>
+      <li>Weighted Pull-Ups – 3 x 6–8</li>
+      <li>Weighted Dips – 3 x 6–8</li>
+      <li>Incline Barbell Press – 3 x 6–8</li>
+      <li>Barbell Rows – 3 x 8</li>
+      <li>Barbell Curls (Heavy) – 3 x 6–8</li>
+    </ul>
+
+    <h2>Day 6: Full Body HIIT</h2>
+    <ul>
+      <li>10 Burpees</li>
+      <li>15 Kettlebell Swings</li>
+      <li>20 Box Jumps</li>
+      <li>15 Battle Rope Slams</li>
+      <li>10 Dumbbell Snatches (each arm)</li>
+      <li>15 Air Squats</li>
+      <li><strong>Repeat 3–5 rounds</strong> (rest 1 min between)</li>
+    </ul>
+
+    <h2>Tips</h2>
+    <ul>
+      <li>Warm-up 5–10 mins before each session</li>
+      <li>Stretch 5–10 mins post-workout</li>
+      <li>Hydrate properly</li>
+      <li>Adjust weights and reps based on your goal</li>
+    </ul>
+  </div>
+    <button >Generate Workout</button>
+  </section>
+
+  <section class="chat">
+    <h2>💬 Ask Your Coach</h2>
+    <input type="text" id="userInput" placeholder="Ask something..." />
+    <button >Send</button>
+    <div id="chatBox"></div>
+  </section>
+
+  <footer>
+    <p>© 2025 AI Gym. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
